@@ -1,0 +1,28 @@
+<!-- Describe task in general -->
+<p>
+    Це завдання адаптоване з наступного відео за участю Neil Sloane (засновника <a target="_blank" href="https://oeis.org">Онлайн енциклопедії послідовностей цілих чисел</a>), яке тобі варто подивитися для початку, щоб зрозуміти, як працює цей чудовий пазл.
+</p>
+<p style="text-align: center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IN1fPtY9jYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+<p>
+    Тобі дано шахову дошку спеціального розміру: <b class="code">size * size</b>. Твоя мета - розмістити на ній так багато ♕ і ♛ як можливо, з наступними правилами розміщення:
+    <ul>
+        <li>тільки однакова кількість королев дозволена;</li>
+        <li>♕ не повинні атакувати ♛ і навпаки (проте вони можу бути під "атакою" королев свого кольору).</li>
+    </ul>
+</p>
+<p>
+    Твоя функція повинна повернути максимальну кількість пар протилежних королеви, яких ти можеш встановити на дану шахову дошку з урахуванням обмежень.
+</p>
+<!-- Explain input and output values -->
+<p>
+    <strong>Вхідні дані:</strong> Розмір шахової дошки як ціле число.
+</p>
+<p>
+    <strong>Output:</strong> Максимальна кількість пар протилежних королев як ціле число. 
+</p>
+<p>
+    <strong>Приклади:</strong>
+</p>
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>

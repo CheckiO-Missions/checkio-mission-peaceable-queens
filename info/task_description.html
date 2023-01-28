@@ -1,0 +1,28 @@
+<!-- Describe task in general -->
+<p>
+    This task is adapted from following video with Neil Sloane (founder of the <a target="_blank" href="https://oeis.org">On-Line Encyclopedia of Integer Sequences</a>), that you should watch first to learn, how this excellent puzzle works.
+</p>
+<p style="text-align: center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IN1fPtY9jYg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
+<p>
+    You are given a chessboard of custom dimension: <b class="code">size * size</b>. Your goal is to put there as many ♕ and ♛ as possible with these rules of placement:
+    <ul>
+        <li>only equal numbers of Queens are allowed;</li>
+        <li>♕ must not attack ♛ and visa verse (but they may be under "attack" of the same color Queens).</li>
+    </ul>
+</p>
+<p>
+    Your function should return the maximum number of opposite Queens pairs, you could put on the given chessboard according to the restrictions.
+</p>
+<!-- Explain input and output values -->
+<p>
+    <strong>Input:</strong> Size of the chessboard as {% if is_js %}Number{% else %}integer{% endif %}.
+</p>
+<p>
+    <strong>Output:</strong> Maximum number of opposite Queens pairs as {% if is_js %}Number{% else %}integer{% endif %}. 
+</p>
+<p>
+    <strong>Examples:</strong>
+</p>
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
