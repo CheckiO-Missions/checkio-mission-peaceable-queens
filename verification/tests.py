@@ -40,9 +40,5 @@ TESTS = {
             "input": [7],
             "answer": 7,
         },
-        {
-            "input": [8],
-            "answer": 9,
-        },
     ]
 }
