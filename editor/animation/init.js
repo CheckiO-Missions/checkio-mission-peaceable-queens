@@ -17,27 +17,27 @@ requirejs(['ext_editor_io2', 'jquery_190', 'raphael_210'],
                 board: [
                     // white
                     {
-                        'stroke-width': '0.1px',
-                        'fill': 'white',
+                        'stroke-width': '0.1',
+                        'fill': '#FFFFFF'
                     },
                     // black
                     {
-                        'stroke-width': '0.1px',
-                        'fill': 'LightGray',
-                    },
+                        'stroke-width': '0.1',
+                        'fill': '#D3D3D3'
+                    }
                 ],
                 queen: [
                     // white
                     {
                         'stroke-width': '0.7',
-                        'fill': 'white',
+                        'fill': '#FFFFFF'
                     },
                     // black
                     {
-                        'stroke-width': '0px',
-                        'fill': 'black',
-                    },
-                ],
+                        'stroke-width': '0',
+                        'fill': '#000000'
+                    }
+                ]
             }
 
             /*----------------------------------------------*
